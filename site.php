@@ -5,10 +5,17 @@
     <title> </title>
   </head>
   <body>
+
     <?php
-       echo "<h1>Silvia's site</h1>";
-       echo "<hr>";
-       echo "<p>This is my site</p>";
-      ?>
+    $characterName = "Tom"; #variable
+    $characterAge = 80; #variable
+    echo "There once was a man named $characterName <br>";
+    echo "He was $characterAge years old <br>";
+    $characterName = "Mike";
+    echo "He really liked the name $characterName <br>";
+    echo "But didn't like being $characterAge <br>";
+
+    ?>
+
   </body>
 </html>
